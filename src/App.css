@@ -20,10 +20,16 @@
 
 .navbar-cards{
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   width: 100vw;
-  height: 90%;
+  height:fit-content;
+  /* background-color:; */
 }
+
+/* .card-container{
+  height: 100vh;
+  width: 100vw;
+} */
 
 .inner-container{
   display: flex;

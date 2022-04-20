@@ -16,9 +16,11 @@ function App() {
       <Fragment>
         <div className="navbar-cards">
           <NavBar />
-          <Routes>
-            <Route exact path="/cards" element={<CardFeed />} />
-          </Routes>
+          <div className="card-container">
+            <Routes>
+              <Route exact path="/cards" element={<CardFeed />} />
+            </Routes>
+          </div>
         </div>
       </Fragment>
     </Router>
