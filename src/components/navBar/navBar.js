@@ -12,17 +12,17 @@ function NavBar() {
 
   return (
     <div className="navbar">
-      <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/cards">Cards</Link>
-            </li>
-            <li>
-              <Link to="/topics">Topics</Link>
-            </li>
-          </ul>
+      <ul className="navbar-ul">
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/cards">Cards</Link>
+        </li>
+        <li>
+          <Link to="/topics">Topics</Link>
+        </li>
+      </ul>
     </div>
   );
 }
