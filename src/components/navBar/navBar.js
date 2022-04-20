@@ -6,6 +6,7 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import "./navBar.css"
 
 function NavBar() {
 
