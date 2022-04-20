@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import React, {useEffect, useState, Fragment} from 'react'
 import CardFeed from './components/mainCardFeed'
-import NavBar from './components/navBar'
+import NavBar from './components/navBar/navBar'
 
 function App() {
 
